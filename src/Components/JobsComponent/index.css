@@ -1,0 +1,70 @@
+.jobs-card {
+  list-style-type: none;
+  padding: 0px;
+}
+.all-jobs {
+  width: 100%;
+}
+
+.loader-card {
+  text-align: center;
+}
+.jobs-no-img {
+  height: 100px;
+}
+.no-jobs-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+}
+.no-jobs-card {
+  text-align: center;
+}
+.input-card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.failure-button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.all-jobs-card {
+  min-height: 92vh;
+  background-color: #000000;
+  padding: 20px;
+}
+@media screen and (min-width: 490px) {
+  .all-jobs-card {
+    display: flex;
+  }
+}
+.search-and-jobs-card {
+  width: 100%;
+}
+@media screen and (min-width: 490px) {
+  .search-and-jobs-card {
+    width: 70%;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .input-card {
+    display: none;
+  }
+}

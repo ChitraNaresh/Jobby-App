@@ -1,0 +1,64 @@
+.app-logo {
+  height: 30px;
+}
+.nav-card {
+  background-color: #2c364c;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+}
+.nav-icons {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+.nav-buttons {
+  border: none;
+  background-color: transparent;
+}
+.icons-card-sm-devices {
+  margin: 0px;
+}
+@media screen and (min-width: 461px) {
+  .icons-card-sm-devices {
+    display: none;
+  }
+}
+.icons-card-bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+@media screen and (max-width: 461px) {
+  .icons-card-bg {
+    display: none;
+  }
+}
+.icons-card-lg-devices {
+  display: flex;
+  padding: 0px;
+  list-style-type: none;
+}
+.logout-btn {
+  border: none;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: blue;
+  cursor: pointer;
+}
+.link {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
